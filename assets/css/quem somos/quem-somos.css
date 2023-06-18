@@ -1,0 +1,22 @@
+.quem-somos{
+  display: flex;
+  flex-direction: column;  
+}
+.quem-somos__titulo{
+    text-align: center;
+    font-size: 3.1875rem;
+    font-family: Pacifico,cursive;
+    color: #8d0606;
+    margin-bottom: 1rem;
+}
+.quem-somos__descricao{
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.75rem;
+    color: #565656;
+}
+.pessoas{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
