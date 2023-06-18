@@ -1,0 +1,35 @@
+.cabecalho{
+    display: flex;
+
+    justify-content: space-between;
+
+    background-color: #f9f9f9;
+    padding: 0 2rem;
+}
+.cabecalho__menu__lista{
+    display: flex;
+    justify-content: space-between;
+}
+.cabecalho__lista__item{
+    margin: 5px 2.25rem 0 0 ;
+    
+    list-style: none;
+
+    transition: 0.5ms all;
+
+    text-transform: capitalize;
+}
+.cabecalho__lista__item:last-child{
+    margin-right: 0;
+}
+.lista__link {
+    color: #808080;
+    text-decoration: none;
+}
+.ativo{
+    color: #303030;
+    font-weight: bold;
+}
+.cabecalho__lista__item:hover{
+    text-decoration: underline;
+}
