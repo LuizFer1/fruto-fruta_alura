@@ -33,3 +33,12 @@
 .cabecalho__lista__item:hover{
     text-decoration: underline;
 }
+@media screen and (max-width: 768px) {
+    .cabecalho{
+        padding: 0 1rem;
+        justify-content: center;
+    }
+    .cabecalho__logo{
+        display: none;
+    }
+}
